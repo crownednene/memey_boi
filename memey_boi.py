@@ -22,4 +22,4 @@ async def on_message(message):
 	if message.content.startswith('$hello'):
 		await message.channel.send('fuck off')
 
-client.run('NzIyOTk0Nzk4NjcxMTY3NTkx.XurWvg.toVmJMtJjmZ0E5biu37f7LL9kak')
+client.run(TOKEN)
